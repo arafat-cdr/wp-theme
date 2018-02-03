@@ -1,0 +1,86 @@
+*********************************************************************************
+*	
+*	web_lover --> fiverr
+*   contact-----> arafat.dml@gmail.com
+*   Full-stack web Developer
+*	
+*
+********************************************************************************
+db::visa_cake_apps
+
+1)users
+	id
+	name
+	email
+	password
+	phone_number
+	created
+	modified
+
+
+2)homes
+	id
+	background_image
+	created
+	modified
+	user_id
+
+3)visa_texts
+	
+	id
+	left_heading_one
+	left_heading_two
+	left_text
+	created
+	modified
+	user_id
+
+4)visa_forms
+	id
+	first_name
+	last_name
+	departing
+	returning
+	country_of_residence
+	destination_country
+	phone_number
+	email_address
+	referrer_email
+	referrer_number
+	created
+	modified
+	user_id
+
+5)tour_banners
+	id
+	banner_img
+	created
+	modified
+	user_id
+	
+
+6)tour_images
+	id
+	caption_one
+	caption_two
+	image
+	created
+	modified
+	user_id
+
+7)about_us
+	id
+	about_us_text
+	created
+	modified
+	user_id
+
+8)contact_us
+	name
+	email
+	message
+	created
+	modified
+	user_id
+
+
